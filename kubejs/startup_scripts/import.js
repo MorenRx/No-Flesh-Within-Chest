@@ -1,5 +1,10 @@
 // priority: 1000
+const $EnchantmentCategory = Java.loadClass('net.minecraft.world.item.enchantment.EnchantmentCategory')
 const $EyeofEnder = Java.loadClass('net.minecraft.world.entity.projectile.EyeOfEnder')
 const $Registry = Java.loadClass('net.minecraft.core.Registry')
 const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
+const $AttributeEntry = Java.loadClass('dev.xkmc.l2library.base.tabs.contents.AttributeEntry')
 const $AttributeRegistry = Java.loadClass('io.redspace.ironsspellbooks.api.registry.AttributeRegistry')
+const $EntityFireDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityFireDragon')
+const $EntityIceDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityIceDragon')
+const $EntityLightningDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityLightningDragon')
